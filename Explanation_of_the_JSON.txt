@@ -1,0 +1,9 @@
+The JSON file contains two main sections:
+
+    Conditions: Lists medical conditions with associated symptoms and their weighted importance. The weights range from 0 to 1, indicating how significant each symptom is for diagnosing the condition. Examples include:
+        Cardiovascular Disease: Symptoms like chest pain, shortness of breath, and irregular heartbeat, with weights indicating their diagnostic importance.
+        Respiratory Disorder, Neurological Condition, Gastrointestinal Disorder, Infection, and two new conditions (Endocrine Disorder, Musculoskeletal Disorder) with their respective symptoms and weights.
+
+    Symptoms: A dictionary that provides a human-readable name for each symptom, linked to its unique key. This section helps users select symptoms in the application.
+
+In summary, this structure enables symptom-based diagnosis by linking medical conditions to specific symptoms and their importance in diagnosing the condition.

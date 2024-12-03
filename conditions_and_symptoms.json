@@ -1,0 +1,31 @@
+{
+  "conditions": {
+      "Flu": {
+          "Fever": 0.8,
+          "Cough": 0.7,
+          "Fatigue": 0.9,
+          "Headache": 0.6
+      },
+      "COVID-19": {
+          "Fever": 0.9,
+          "Cough": 0.8,
+          "Shortness of Breath": 0.9,
+          "Loss of Taste or Smell": 1.0
+      },
+      "Migraine": {
+          "Headache": 1.0,
+          "Nausea": 0.8,
+          "Sensitivity to Light": 0.9
+      }
+  },
+  "symptoms": {
+      "Fever": "High body temperature",
+      "Cough": "Persistent coughing",
+      "Fatigue": "Feeling of tiredness",
+      "Headache": "Pain in the head",
+      "Shortness of Breath": "Difficulty breathing",
+      "Loss of Taste or Smell": "Inability to taste or smell",
+      "Nausea": "Feeling of sickness",
+      "Sensitivity to Light": "Discomfort with bright light"
+  }
+}
